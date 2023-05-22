@@ -59,7 +59,6 @@ a,body,div,form,html,img,input,label,p,span{margin:0;padding:0;border:0;font-fam
   }
   
   .h1 {
-    /* background-color: red; */
     font-style: normal;
     font-weight: 400px;
     line-height: 83px;
@@ -95,7 +94,6 @@ a,body,div,form,html,img,input,label,p,span{margin:0;padding:0;border:0;font-fam
 
   /* Slider */
   .container-swiper {
-   
     /* background-color: red; */
     display: flex;
     align-items: center;
@@ -121,17 +119,16 @@ a,body,div,form,html,img,input,label,p,span{margin:0;padding:0;border:0;font-fam
     flex-wrap: nowrap;
     border-radius: 25px;
   }
-  
+
   #list{
+    /* background-color: red; */
     display: flex;
     width: max-content;
-    
   }
 
   #formList{
     /* background-color: red; */
-    /* display: flex; */
-    width: 660px;
+    width: 860px;
     max-width: 100%;
     overflow: auto;
     margin: 0 auto;
