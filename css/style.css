@@ -59,12 +59,18 @@ a,body,div,form,html,img,input,label,p,span{margin:0;padding:0;border:0;font-fam
   }
   
   .h1 {
+    /* background-color: red; */
     font-style: normal;
     font-weight: 400px;
     line-height: 83px;
     text-align: center;
     font-size: 100px;
     margin-top: 2rem;
+  }
+
+  .logo-simple{
+    width: 2.5rem;
+    height: 1rem;
   }
 
   .direction{
@@ -89,7 +95,8 @@ a,body,div,form,html,img,input,label,p,span{margin:0;padding:0;border:0;font-fam
 
   /* Slider */
   .container-swiper {
-    background-color: red;
+   
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,14 +121,17 @@ a,body,div,form,html,img,input,label,p,span{margin:0;padding:0;border:0;font-fam
     flex-wrap: nowrap;
     border-radius: 25px;
   }
-
+  
   #list{
     display: flex;
     width: max-content;
+    
   }
 
   #formList{
-    width: 860px;
+    /* background-color: red; */
+    /* display: flex; */
+    width: 660px;
     max-width: 100%;
     overflow: auto;
     margin: 0 auto;
